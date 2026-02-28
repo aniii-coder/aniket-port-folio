@@ -1,0 +1,83 @@
+.sidebar {
+  position: fixed;
+  top: 0;              /* required for sticky to work */
+  /* border: 1px solid black; */
+  width: 120px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.menuWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.iconItem {
+  width: 55px;
+  height: 55px;
+  background: #e3e3e3;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #555;
+  transition: all 0.3s ease;
+}
+
+.menuItem {
+  position: absolute;
+  left: 0;
+
+  height: 55px;
+  width: 50px;              
+  border-radius: 50px;
+
+  display: flex;
+  align-items: center;
+  /* gap: 10px; */
+
+  background: #1e66b3;
+  color: white;
+
+  overflow: hidden;           
+
+  opacity: 0;
+  visibility: hidden;
+
+  padding-left: 12px;
+
+  transition: width 0.35s ease, opacity 0.25s ease;
+}
+
+.menuItem span {
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.2s ease 0.15s;
+}
+
+
+.menuWrapper:hover .iconItem {
+  opacity: 0;
+  transform: scale(0.6);
+  cursor: pointer;
+}
+
+.menuWrapper:hover .menuItem {
+  width: 130px;      
+  opacity: 1;
+  visibility: visible;
+  cursor: pointer;
+}
+
+.menuWrapper:hover .menuItem span {
+  opacity: 1;
+}

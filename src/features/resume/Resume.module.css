@@ -1,0 +1,15 @@
+.title{
+    font-size: 40px;
+  font-weight: 600;
+  color: #45505b;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+.name {
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  color: #3c4a5a;
+  margin-bottom: 14px;
+}

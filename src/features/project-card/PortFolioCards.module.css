@@ -1,0 +1,117 @@
+.container {
+  display: flex;
+  gap: 40px;
+  padding: 40px;
+  /* background: #f4f4f4; */
+}
+
+.portfolioContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.title1{
+  margin-top: 40px;
+    font-size: 40px;
+  font-weight: 600;
+  color: #45505b;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+/* CARD */
+
+.card {
+  width: 520px;
+  border-radius: 18px;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* IMAGE AREA */
+
+.imageWrapper {
+  position: relative;
+  height: 320px;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* OVERLAY */
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+  padding: 20px;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+/* SHOW OVERLAY ON HOVER */
+
+.card:hover .overlay {
+  opacity: 1;
+}
+
+/* FORCE HOVER FOR LEFT CARD */
+
+.forceHover .overlay {
+  opacity: 1;
+}
+
+/* ICON BUTTON */
+
+.iconBtn {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background: white;
+  display: grid;
+  place-items: center;
+  color: #ff6a00;
+  transition: 0.2s;
+}
+
+.iconBtn:hover {
+  transform: scale(1.1);
+}
+
+/* CONTENT */
+
+.content {
+  padding: 26px;
+}
+
+.category {
+  font-size: 13px;
+  font-weight: 600;
+  color: #ff6a00;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 22px;
+  color: #1a2b49;
+  margin-bottom: 12px;
+}
+
+.desc {
+  color: #6b7280;
+  font-size: 15px;
+  line-height: 1.6;
+}

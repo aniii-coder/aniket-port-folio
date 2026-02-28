@@ -1,0 +1,57 @@
+.wrapper {
+  position: relative;
+  padding-left: 45px;
+  max-width: 560px;
+}
+
+/* Vertical timeline line */
+.wrapper::before {
+  content: "";
+  position: absolute;
+  left: 11px;
+  top: 12px;
+  bottom: 0;
+  width: 2px;
+  background: #1e63c6;
+}
+
+/* Circle dot */
+.circle {
+  position: absolute;
+  left: 2px;
+  top: 8px;
+  width: 16px;
+  height: 16px;
+  border: 3px solid #1e63c6;
+  border-radius: 50%;
+  background: white;
+}
+
+/* Name heading */
+.name {
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  color: #3c4a5a;
+  margin-bottom: 14px;
+}
+
+/* Description text */
+.description {
+  font-style: italic;
+  color: #2f3b46;
+  line-height: 1.7;
+  margin-bottom: 22px;
+}
+
+/* List styling */
+.list {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.listItem {
+  margin-bottom: 12px;
+  color: #2f3b46;
+  font-size: 16px;
+}

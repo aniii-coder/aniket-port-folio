@@ -1,0 +1,35 @@
+.mainPage {
+  width: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;     /* vertical center */
+  /* justify-content: center; horizontal center */
+}
+
+.connection{
+    display: flex;
+    margin-top: 10px;
+    gap: 20px;
+}
+.iconBox{
+    cursor: pointer;
+}
+
+.iconBox:hover{
+    color: #0563BB;
+}
+
+.namingSection{
+    font-size: 10vh;
+    color: #45505b;
+    font-weight: 500;
+}
+
+
+
+.professionalField{
+    font-size: 4vh;
+    color: #272829;
+    font-weight: 400;
+}
