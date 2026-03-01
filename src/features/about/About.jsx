@@ -46,8 +46,9 @@ const About = () => {
               }}
               className={styles.infoContainer}
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              MERN Stack Developer passionate about creating dynamic,
+              user-friendly web apps using MongoDB, Express, React, and Node.js.
+              Focused on performance, functionality, and clean UI.
             </div>
             <div style={{ flex: "2.2" }} className={styles.infoContainer}>
               <div className={styles.infoLeft}>
@@ -167,11 +168,9 @@ const About = () => {
               </div>
             </div>
             <div style={{ flex: "0.8" }} className={styles.infoContainer}>
-              Officiis eligendi itaque labore et dolorum mollitia officiis optio
-              vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor
-              incidunt officia tempore. Et eius omnis. Cupiditate ut dicta
-              maxime officiis quidem quia. Sed et consectetur qui quia
-              repellendus itaque neque.
+              MERN Stack Developer passionate about creating dynamic,
+              user-friendly web apps using MongoDB, Express, React, and Node.js.
+              Focused on performance, functionality, and clean UI.
             </div>
           </div>
         </div>
