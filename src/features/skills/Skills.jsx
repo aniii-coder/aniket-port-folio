@@ -23,7 +23,7 @@ const Skills = () => {
       
       {/* Heading */}
       <div className={styles.headingSection}>
-        <h2 className={styles.title}>Skills </h2>
+        <h2 className={styles.title}>Skills</h2>
         <p className={styles.subtitle}>
           Technologies I use to build modern full-stack applications
         </p>
@@ -32,7 +32,7 @@ const Skills = () => {
 
       <div className={styles.roadmap}>
         
-        {/* Row 1 */}
+        {/* Frontend Core */}
         <div className={styles.row}>
           <div className={styles.card}><FileCode /> HTML</div>
           <div className={styles.dash}></div>
@@ -40,17 +40,23 @@ const Skills = () => {
           <div className={styles.dash}></div>
           <div className={styles.card}><Braces /> JavaScript</div>
           <div className={styles.dash}></div>
-          <div className={styles.card}><Atom /> React</div>
+          <div className={styles.card}><Braces /> TypeScript</div>
         </div>
 
         <div className={styles.vertical}></div>
 
-        <div className={styles.rowCenter}>
+        {/* Frontend Frameworks */}
+        <div className={styles.row}>
+          <div className={styles.card}><Atom /> React</div>
+          <div className={styles.dash}></div>
+          <div className={styles.card}>Angular</div>
+          <div className={styles.dash}></div>
           <div className={styles.card}>Next.js</div>
         </div>
 
         <div className={styles.vertical}></div>
 
+        {/* APIs */}
         <div className={styles.row}>
           <div className={styles.card}><ArrowRightLeft /> REST</div>
           <div className={styles.dash}></div>
@@ -59,6 +65,7 @@ const Skills = () => {
 
         <div className={styles.vertical}></div>
 
+        {/* Backend */}
         <div className={styles.rowCenter}>
           <div className={styles.card}><Server /> Backend Layer</div>
         </div>
