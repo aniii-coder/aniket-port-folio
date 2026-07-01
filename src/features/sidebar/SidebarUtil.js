@@ -6,7 +6,7 @@ export const navUtils = [
     {id: 2, name: "Skills", icon: Wrench , link: '#skills'},
     
     {id: 3, name: "Resume", icon: FileText , link: '#resume'},
-    // {id: 4, name: "Projects", icon: Image , link: '#projects'},
+    {id: 4, name: "Projects", icon: Image , link: '#projects'},
     // {id: 5, name: "Services", icon: Database , link: '#services'},
     // {id: 6, name: "Contact", icon: Mail , link: '#contact'},
 ]

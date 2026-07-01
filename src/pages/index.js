@@ -24,9 +24,9 @@ const index = () => {
           <div id="resume" style={{height:'100%'}}>
             <Resume />
           </div>
-          {/* <div id="projects" style={{height:'100%'}}>
+          <div id="projects" style={{height:'100%'}}>
             <PortfolioCards />
-          </div> */}
+          </div>
           {/* <div id="contact" style={{height:'100%'}}>
             <MainPage />
           </div>   */}
